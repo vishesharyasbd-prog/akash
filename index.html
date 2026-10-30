@@ -1,13 +1,12 @@
- <!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#08090d">
-
 <title>AKASH KI OPINION TM</title>
 
-<!-- META PIXEL CODE -->
+<!-- META PIXEL -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -26,204 +25,162 @@ fbq('track', 'PageView');
 <img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1643376437550368&ev=PageView&noscript=1"/>
 </noscript>
-<!-- END META PIXEL -->
+<!-- END PIXEL -->
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:20px;
+font-family:Arial,sans-serif;
+color:#fff;
+background:
+radial-gradient(circle at 50% 15%,#302719,transparent 42%),
+linear-gradient(145deg,#07080c,#11141c,#07080c);
 }
 
-body {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  color: #fff;
-
-  background:
-    radial-gradient(circle at 50% 15%, #302719, transparent 42%),
-    linear-gradient(145deg,#07080c,#11141c,#07080c);
+.container{
+width:100%;
+max-width:390px;
+text-align:center;
 }
 
-.container {
-  width: 100%;
-  max-width: 390px;
-  text-align: center;
-}
-
-.card {
-  padding: 42px 25px 34px;
-  border-radius: 26px;
-
-  background: linear-gradient(
-    145deg,
-    rgba(255,255,255,.12),
-    rgba(255,255,255,.025)
-  );
-
-  border: 1px solid rgba(226,187,112,.42);
-
-  backdrop-filter: blur(22px);
-  -webkit-backdrop-filter: blur(22px);
-
-  box-shadow:
-    0 20px 65px rgba(0,0,0,.55),
-    inset 0 1px 1px rgba(255,255,255,.13),
-    0 0 30px rgba(218,174,95,.09);
+.card{
+padding:42px 25px 34px;
+border-radius:26px;
+background:linear-gradient(145deg,
+rgba(255,255,255,.12),
+rgba(255,255,255,.025));
+border:1px solid rgba(226,187,112,.42);
+backdrop-filter:blur(22px);
+-webkit-backdrop-filter:blur(22px);
+box-shadow:
+0 20px 65px rgba(0,0,0,.55),
+inset 0 1px 1px rgba(255,255,255,.13),
+0 0 30px rgba(218,174,95,.09);
 }
 
 /* CHANNEL DP */
-.logo {
-  width: 105px;
-  height: 105px;
-  margin: 0 auto 25px;
-  overflow: hidden;
-  border-radius: 23px;
-
-  border: 2px solid #dfbb78;
-
-  box-shadow:
-    0 0 18px rgba(223,187,120,.35),
-    0 0 38px rgba(223,187,120,.15);
+.logo{
+width:105px;
+height:105px;
+margin:0 auto 25px;
+overflow:hidden;
+border-radius:23px;
+border:2px solid #dfbb78;
+box-shadow:
+0 0 18px rgba(223,187,120,.35),
+0 0 38px rgba(223,187,120,.15);
 }
 
-.logo img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-  object-position: center;
+.logo img{
+width:100%;
+height:100%;
+display:block;
+object-fit:cover;
+object-position:center;
 }
 
-.tag {
-  color: #dcb66d;
-  font-size: 10px;
-  font-weight: bold;
-  letter-spacing: 4px;
-  margin-bottom: 13px;
+.tag{
+color:#dcb66d;
+font-size:10px;
+font-weight:bold;
+letter-spacing:4px;
+margin-bottom:13px;
 }
 
-h1 {
-  font-size: 27px;
-  line-height: 1.3;
-  font-weight: 800;
-  letter-spacing: .4px;
-
-  background: linear-gradient(
-    90deg,#fff,#e9c98e,#fff
-  );
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+h1{
+font-size:27px;
+line-height:1.3;
+font-weight:800;
+letter-spacing:.4px;
+background:linear-gradient(90deg,#fff,#e9c98e,#fff);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
 }
 
-.line {
-  width: 52px;
-  height: 2px;
-  margin: 19px auto;
-
-  background: linear-gradient(
-    90deg,transparent,#dfb66d,transparent
-  );
+.line{
+width:52px;
+height:2px;
+margin:19px auto;
+background:linear-gradient(90deg,transparent,#dfb66d,transparent);
 }
 
-.description {
-  color: #bfc0c8;
-  font-size: 13px;
-  line-height: 1.8;
-  margin-bottom: 27px;
+.description{
+color:#bfc0c8;
+font-size:13px;
+line-height:1.8;
+margin-bottom:27px;
 }
 
-.join-btn {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 11px;
-
-  padding: 17px 15px;
-  border-radius: 13px;
-
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 800;
-  letter-spacing: .6px;
-
-  color: #17130c;
-
-  background: linear-gradient(
-    110deg,#d5ad68,#ffe6af,#c99a4e
-  );
-
-  box-shadow: 0 7px 28px rgba(218,174,95,.28);
-
-  transition: .25s ease;
+.join-btn{
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:11px;
+padding:17px 15px;
+border-radius:13px;
+text-decoration:none;
+font-size:14px;
+font-weight:800;
+letter-spacing:.6px;
+color:#17130c;
+background:linear-gradient(110deg,#d5ad68,#ffe6af,#c99a4e);
+box-shadow:0 7px 28px rgba(218,174,95,.28);
+transition:.25s ease;
 }
 
-.join-btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 35px rgba(218,174,95,.42);
+.join-btn:hover{
+transform:translateY(-3px);
+box-shadow:0 10px 35px rgba(218,174,95,.42);
 }
 
-.telegram-icon {
-  font-size: 19px;
-}
+.telegram-icon{font-size:19px}
 
-.footer {
-  margin-top: 25px;
-  color: #858792;
-  font-size: 10px;
-  letter-spacing: 1.7px;
+.footer{
+margin-top:25px;
+color:#858792;
+font-size:10px;
+letter-spacing:1.7px;
 }
-
 </style>
 </head>
 
 <body>
-
 <div class="container">
+<main class="card">
 
-  <div class="card">
-
-    <!-- CHANNEL PROFILE IMAGE -->
-    <div class="logo">
-      <img src="dp.jpg" alt="Akash Ki Opinion TM">
-    </div>
-
-    <div class="tag">
-      WELCOME TO
-    </div>
-
-    <h1>AKASH KI OPINION TM</h1>
-
-    <div class="line"></div>
-
-    <p class="description">
-      Join our official Telegram channel.<br>
-      Stay connected with Akash Ki Opinion.
-    </p>
-
-    <!-- TELEGRAM JOIN BUTTON -->
-    <a
-      class="join-btn"
-      href="https://t.me/+fYkdwUgZ07cyYTll"
-      onclick="if(typeof fbq==='function'){fbq('track','Subscribe');}"
-    >
-      <span class="telegram-icon">➤</span>
-      JOIN TELEGRAM CHANNEL
-    </a>
-
-    <div class="footer">
-      OFFICIAL TELEGRAM COMMUNITY
-    </div>
-
-  </div>
-
+<div class="logo">
+<img src="data:image/jpeg;base64,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
+[30-10-2026 11:24] X Man: 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" alt="Akash Ki Opinion TM">
 </div>
 
+<div class="tag">WELCOME TO</div>
+<h1>AKASH KI OPINION TM</h1>
+<div class="line"></div>
+
+<p class="description">
+Join our official Telegram channel.<br>
+Stay connected with Akash Ki Opinion.
+</p>
+
+<a class="join-btn"
+href="https://t.me/+fYkdwUgZ07cyYTll"
+onclick="if(typeof fbq==='function'){fbq('track','Subscribe');}">
+<span class="telegram-icon">➤</span>
+JOIN TELEGRAM CHANNEL
+</a>
+
+<div class="footer">OFFICIAL TELEGRAM COMMUNITY</div>
+
+</main>
+</div>
 </body>
 </html>
